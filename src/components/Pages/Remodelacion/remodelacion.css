@@ -1,0 +1,21 @@
+section.pinturas section, section.pinturas section {
+    overflow: hidden;
+    width: 380px;
+    height: 380px;
+    box-sizing: border-box;
+    margin: 20px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.7s ease;
+}
+section.pinturas, section.pinturas {
+    justify-content: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   
+}
